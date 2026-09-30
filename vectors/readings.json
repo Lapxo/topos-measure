@@ -1,0 +1,152 @@
+{
+ "about": [
+  "The readings region of topos-measure, asked in worlds of thermometers: four of which one reads apart, three that meet, and one alone."
+ ],
+ "worlds": {
+  "root:topos-measure": {
+   "lines": [
+    "bound-lock/1 about=\"## Readings\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/readings value=lock",
+    "bound-lock/1 about=\"| quantity | origin | reading |\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/table value=lock",
+    "bound-lock/1 about=|---|---|---| at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/rule value=lock",
+    "bound-lock/1 about=\"| {quantity} | {origin} | {value} {unit} |\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/row value=lock",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/row value=quantity|origin|value|unit",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} meet: every one of their readings holds {lo}..{hi} {unit}.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/FREE value=lock",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} do not meet: no value in {unit} is held by all of their readings, and no average of them closes that.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/CONFLICT value=lock",
+    "bound-lock/1 about=\"Only {origins} origin measured {quantity}: its reading holds nothing yet, until a second origin's reading meets it.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/REQUIRED value=lock",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} meet, but outside what the bounds on it allow.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/FORBIDDEN value=lock",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/FREE value=origins|quantity|lo|hi|unit",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/CONFLICT value=origins|quantity|unit",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/REQUIRED value=origins|quantity",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/FORBIDDEN value=origins|quantity",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/prose/en/numbers value=zero|one|two|three|four|five|six|seven|eight|nine|ten",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=lang value=en",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/a value=19.8..20.2",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/b value=19.9..20.3",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/c value=19.7..20.1",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/d value=24..24.4"
+   ],
+   "regions": {}
+  },
+  "alone:topos-measure": {
+   "lines": [
+    "bound-lock/1 about=\"## Readings\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/readings value=lock",
+    "bound-lock/1 about=\"| quantity | origin | reading |\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/table value=lock",
+    "bound-lock/1 about=|---|---|---| at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/rule value=lock",
+    "bound-lock/1 about=\"| {quantity} | {origin} | {value} {unit} |\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/row value=lock",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/row value=quantity|origin|value|unit",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} meet: every one of their readings holds {lo}..{hi} {unit}.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/FREE value=lock",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} do not meet: no value in {unit} is held by all of their readings, and no average of them closes that.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/CONFLICT value=lock",
+    "bound-lock/1 about=\"Only {origins} origin measured {quantity}: its reading holds nothing yet, until a second origin's reading meets it.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/REQUIRED value=lock",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} meet, but outside what the bounds on it allow.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/FORBIDDEN value=lock",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/FREE value=origins|quantity|lo|hi|unit",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/CONFLICT value=origins|quantity|unit",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/REQUIRED value=origins|quantity",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/FORBIDDEN value=origins|quantity",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/prose/en/numbers value=zero|one|two|three|four|five|six|seven|eight|nine|ten",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=lang value=en",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/a value=19.8..20.2"
+   ]
+  },
+  "crossed:topos-measure": {
+   "lines": [
+    "bound-lock/1 about=\"## Readings\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/readings value=lock",
+    "bound-lock/1 about=\"| quantity | origin | reading |\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/table value=lock",
+    "bound-lock/1 about=|---|---|---| at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/rule value=lock",
+    "bound-lock/1 about=\"| {quantity} | {origin} | {value} {unit} |\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/row value=lock",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/row value=quantity|origin|value|unit",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} meet: every one of their readings holds {lo}..{hi} {unit}.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/FREE value=lock",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} do not meet: no value in {unit} is held by all of their readings, and no average of them closes that.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/CONFLICT value=lock",
+    "bound-lock/1 about=\"Only {origins} origin measured {quantity}: its reading holds nothing yet, until a second origin's reading meets it.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/REQUIRED value=lock",
+    "bound-lock/1 about=\"The {origins} origins that measured {quantity} meet, but outside what the bounds on it allow.\" at=policy:topos-measure/example by=target form=alphabet measure=text role=writes scope=prose/en/FORBIDDEN value=lock",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/FREE value=origins|quantity|lo|hi|unit",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/CONFLICT value=origins|quantity|unit",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/REQUIRED value=origins|quantity",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/measure/FORBIDDEN value=origins|quantity",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/prose/en/numbers value=zero|one|two|three|four|five|six|seven|eight|nine|ten",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=lang value=en",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/a value=19.8..20.2",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/b value=19.9..20.3",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/c value=19.7..20.1",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=interval measure=celsius role=writes scope=measure/room/d value=24..24.4",
+    "bound-lock/1 at=policy:topos-measure/example by=target form=alphabet measure=id role=writes scope=form/template/what value=place"
+   ]
+  }
+ },
+ "cases": [
+  {
+   "name": "root:topos-measure · readings@3 · README.md",
+   "world": "root:topos-measure",
+   "request": {
+    "region": "readings",
+    "at": 3,
+    "shape": "README.md",
+    "name": "topos-measure",
+    "reads": [
+     "lang",
+     "form/template/**",
+     "prose/*/*",
+     "measure/**"
+    ]
+   },
+   "expected": [
+    "## Readings",
+    "",
+    "| quantity | origin | reading |",
+    "|---|---|---|",
+    "| room | a | 19.8..20.2 celsius |",
+    "| room | b | 19.9..20.3 celsius |",
+    "| room | c | 19.7..20.1 celsius |",
+    "| room | d | 24..24.4 celsius |"
+   ]
+  },
+  {
+   "name": "alone:topos-measure · readings@3 · README.md",
+   "world": "alone:topos-measure",
+   "request": {
+    "region": "readings",
+    "at": 3,
+    "shape": "README.md",
+    "name": "topos-measure",
+    "reads": [
+     "lang",
+     "form/template/**",
+     "prose/*/*",
+     "measure/**"
+    ]
+   },
+   "expected": [
+    "## Readings",
+    "",
+    "| quantity | origin | reading |",
+    "|---|---|---|",
+    "| room | a | 19.8..20.2 celsius |"
+   ]
+  },
+  {
+   "name": "crossed:topos-measure · readings@3 · README.md",
+   "world": "crossed:topos-measure",
+   "request": {
+    "region": "readings",
+    "at": 3,
+    "shape": "README.md",
+    "name": "topos-measure",
+    "reads": [
+     "lang",
+     "form/template/**",
+     "prose/*/*",
+     "measure/**"
+    ]
+   },
+   "expected": [
+    "## Readings",
+    "",
+    "| quantity | origin | reading |",
+    "|---|---|---|",
+    "| room | a | 19.8..20.2 celsius |",
+    "| room | b | 19.9..20.3 celsius |",
+    "| room | c | 19.7..20.1 celsius |",
+    "| room | d | 24..24.4 celsius |"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "witness": "a-cell-held-by-the-readings-that-meet",
+ "reads": "said/lines",
+ "handed": "the lines a sample carries, said by the reader of the place, and nothing else",
+ "lines": [
+  "bound-lock/1 at=witness:a-demo-world-that-held-no-readings by=target form=interval measure=celsius role=writes scope=measure/room/a value=19.8..20.2",
+  "bound-lock/1 at=witness:a-demo-world-that-held-no-readings by=target form=interval measure=celsius role=writes scope=measure/room/b value=19.9..20.3",
+  "bound-lock/1 at=witness:a-demo-world-that-held-no-readings by=target form=interval measure=celsius role=writes scope=measure/room/c value=19.7..20.1",
+  "bound-lock/1 at=witness:a-demo-world-that-held-no-readings by=target form=interval measure=celsius role=writes scope=measure/room/d value=24..24.4"
+ ],
+ "why": "four thermometers read one room: three hold where their ranges overlap, and the fourth, on the radiator, claims a range none of them allows; the held region draws the cell the three hold and names the fourth apart, from the lines this sample carries, never from a number written in the world",
+ "expected.ok": true
+}
