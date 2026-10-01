@@ -12,7 +12,26 @@ A reading from one instrument is potential. Two independent instruments that agr
 
 ## Four thermometers, one room
 
-<p align="center"><img src="docs/img/world.svg" alt="declares measurements, runs on node, reaches none, 2 regions, the longest of them 22 lines, 0 vector files, each held from the blob, packed as sha256:2c3b0692590a76f35de5b2ff02d90f21b261f46f58e9dfa245db0920345e2827, pinned by topos-measure and run by the node host" width="640"></p>
+<p align="center"><img src="docs/img/world.svg" alt="declares measurements, runs on node, reaches none, held reads lang|form/prose/**|form/template/**|prose/*/*|measure/**, readings reads lang|form/template/**|prose/*/*|measure/**, against topos sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541, packed as sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225, a place adopts it with uses/topos-measure and run by the node host" width="640"></p>
+
+```bash
+node examples/release/thermometers.ts
+```
+
+```
+bound-lock/1 about="the domain this capsule serves: what several origins measured, each quantity read as one cell" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/domain value=measurements
+bound-lock/1 about="the runtime a host starts this capsule with, whose entry, regions and effects are the runtime's own lines" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/runtime value=node
+bound-lock/1 about="where this capsule's world keeps its values: the place's own files" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/holds value=./
+bound-lock/1 about="the held region" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/held value=lang|form/prose/**|form/template/**|prose/*/*|measure/**
+bound-lock/1 about="the readings region" at=policy:topos/capsule by=target form=alphabet measure=reads role=render scope=region/readings value=lang|form/template/**|prose/*/*|measure/**
+bound-lock/1 about="the key this world's own prose is written under, which its host drops as it hands the prose to the place's pages and to its own regions" at=policy:topos/capsule by=target form=alphabet measure=id role=writes scope=capsule/key value=measure
+bound-lock/1 about="what this capsule reaches beyond the lines it is handed" at=policy:topos/capsule by=target form=alphabet measure=effects role=writes scope=capsule/effects value=none
+bound-lock/1 about="the topos release this capsule is packed against, named by its digest" at=policy:topos/capsule by=target form=alphabet measure=digest role=writes scope=capsule/topos value=sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541
+bound-lock/1 about="The {origins} origins that measured {quantity} do not meet: no value in {unit} is held by all of their readings, and no average of them closes that." at=witness:a-demo-world-that-held-no-readings by=target form=alphabet measure=text role=writes scope=prose/en/measure/CONFLICT value=lock
+bound-lock/1 about="The {origins} origins that measured {quantity} meet: every one of their readings holds {lo}..{hi} {unit}." at=witness:a-demo-world-that-held-no-readings by=target form=alphabet measure=text role=writes scope=prose/en/measure/FREE value=lock
+```
+
+[The whole example](examples/release/thermometers.ts)
 
 The four origins that measured room do not meet: no value in celsius is held by all of their readings, and no average of them closes that.
 

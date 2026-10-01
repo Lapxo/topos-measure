@@ -8,7 +8,7 @@ import { readingsOf } from '../helpers/reading.ts';
 const whole = intervals(-Infinity, Infinity);
 
 /** The held region. It answers what the readings of one quantity hold together, and in which state their cell is. */
-export const held = (asked: Asked): readonly string[] => {
+export const render = (asked: Asked): readonly string[] => {
   const read = readingsOf(asked.lines);
   const numbers = listed(asked, `form/prose/${lang(asked)}/numbers`);
   return [...new Set(read.map((one) => one.quantity))].map((quantity) => {
