@@ -1,6 +1,6 @@
 # @lapxo/topos-measure
 
-![version 0.1.1](https://img.shields.io/badge/version-0.1.1-8c959f) ![license MIT](https://img.shields.io/badge/license-MIT-8c959f) ![node >=22.12](https://img.shields.io/badge/node-%3E%3D22.12-8c959f) ![dependencies 2](https://img.shields.io/badge/dependencies-2-8c959f) ![cases 0 hold](https://img.shields.io/badge/cases-0_hold-8c959f) ![verify agrees](https://img.shields.io/badge/verify-agrees-2da44e)
+![version 0.1.2](https://img.shields.io/badge/version-0.1.2-8c959f) ![license MIT](https://img.shields.io/badge/license-MIT-8c959f) ![node >=22.12](https://img.shields.io/badge/node-%3E%3D22.12-8c959f) ![dependencies 2](https://img.shields.io/badge/dependencies-2-8c959f) ![cases 0 hold](https://img.shields.io/badge/cases-0_hold-8c959f) ![verify none](https://img.shields.io/badge/verify-none-8c959f)
 
 One cell for every quantity.
 
@@ -34,8 +34,16 @@ The four origins that measured room do not meet: no value in celsius is held by 
 Add to your lock:
 sources/topos-measure value=github:Lapxo/topos-measure
 uses/topos-measure sha256:<release digest>
+https://github.com/Lapxo/topos-measure/releases
 Fetch the release asset, verify its sha256 equals the uses/ line, place it in bound/cas/blobs/. Fold: its pages appear.
 open: line/install needs=host/resolve — when bound resolves sources/ itself, the fetch line leaves the page by fold.
+
+## How to read it
+
+topos-measure is read one region at a time, and each answers one question.
+
+- **held** · what the readings of one quantity hold together, and in which state their cell is
+- **readings** · what each origin read of each quantity, in the unit its line names
 
 It rests on obligations and topos.
 
