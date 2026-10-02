@@ -1,4 +1,1 @@
-bound-lock/1 at=place:sha256:41b3b4f7ef678b7df4cfb67f5a96bd840f5e77be4d5a294392f29bb927b0768a by=bound form=alphabet measure=digest role=writes scope=receipts value=sha256:ed9c9c787e4fc472cfbf6aa42448ebcf1e0c02f8f90c2de4fe4974343ecfb833
-
-bound-lock/1 at=place:sha256:96974a603a9742446d4384c5af31928246636253d8a37c4260e44f439245873a by=bound form=interval measure=count role=writes scope=receipts/source value=101..101
-bound-lock/1 at=place:sha256:86acb4e27a7227e6fa5d1ebaa04c19bf920c20668db4e8a6c25a8fc88f3fb8e7 by=bound form=interval measure=count role=writes scope=receipts/src value=4..4
+bound-lock/1 at=place:sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 by=bound form=alphabet measure=digest role=writes scope=receipts value=sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

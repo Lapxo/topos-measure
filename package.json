@@ -1,6 +1,6 @@
 {
   "name": "@lapxo/topos-measure",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "A world of measurements built on topos: each quantity several origins read is one cell, said as where their readings meet or that they do not, and nothing is averaged.",
   "type": "module",

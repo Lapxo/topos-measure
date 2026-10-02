@@ -1,26 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684 392" width="684" height="392" role="img" aria-label="declares measurements, runs on node, reaches none, held reads lang|form/prose/**|form/template/**|prose/*/*|measure/**, readings reads lang|form/template/**|prose/*/*|measure/**, against topos sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541, packed as sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225, a place adopts it with uses/topos-measure and run by the node host">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-label="declares , runs on , reaches, 2 regions, the longest of them 0 lines, 0 vector files, each held from the blob, pinned by topos-measure and run by the host">
 <style>
 text{font:12px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#59636e}rect{fill:none;stroke:#8c959f}line{stroke:#2da44e}
 @media (prefers-color-scheme:dark){text{fill:#9198a1}}
 </style>
-<rect x="20" y="8" width="644" height="36" rx="6"/>
-<text x="36" y="30">declares measurements, runs on node, reaches none</text>
-<rect x="20" y="64" width="644" height="36" rx="6"/>
-<text x="36" y="86">held reads lang|form/prose/**|form/template/**|prose/*/*|measure/**</text>
-<line x1="342" y1="44" x2="342" y2="64"/>
-<rect x="20" y="120" width="644" height="36" rx="6"/>
-<text x="36" y="142">readings reads lang|form/template/**|prose/*/*|measure/**</text>
-<line x1="342" y1="100" x2="342" y2="120"/>
-<rect x="20" y="176" width="644" height="36" rx="6"/>
-<text x="36" y="198">against topos sha256:680af2143a339689f58b8f672da4c637b76e22f3b3812d2dfb95b2f0723d5541</text>
-<line x1="342" y1="156" x2="342" y2="176"/>
-<rect x="20" y="232" width="644" height="36" rx="6"/>
-<text x="36" y="254">packed as sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225</text>
-<line x1="342" y1="212" x2="342" y2="232"/>
-<rect x="20" y="288" width="644" height="36" rx="6"/>
-<text x="36" y="310">a place adopts it with uses/topos-measure</text>
-<line x1="342" y1="268" x2="342" y2="288"/>
-<rect x="20" y="344" width="644" height="36" rx="6"/>
-<text x="36" y="366">run by the node host</text>
-<line x1="342" y1="324" x2="342" y2="344"/>
+<rect x="20" y="8" width="600" height="36" rx="6"/>
+<text x="36" y="30">declares , runs on , reaches</text>
+<rect x="20" y="64" width="600" height="36" rx="6"/>
+<text x="36" y="86">2 regions, the longest of them 0 lines</text>
+<line x1="320" y1="44" x2="320" y2="64"/>
+<rect x="20" y="120" width="600" height="36" rx="6"/>
+<text x="36" y="142">0 vector files, each held from the blob</text>
+<line x1="320" y1="100" x2="320" y2="120"/>
+<rect x="20" y="176" width="600" height="36" rx="6"/>
+<text x="36" y="198">pinned by topos-measure</text>
+<line x1="320" y1="156" x2="320" y2="176"/>
+<rect x="20" y="232" width="600" height="36" rx="6"/>
+<text x="36" y="254">run by the host</text>
+<line x1="320" y1="212" x2="320" y2="232"/>
 </svg>
