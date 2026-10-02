@@ -27,7 +27,7 @@ const read = (origins: typeof room): string[] => origins.map(({ origin, span: { 
 const held = (origins: typeof room): string => ((got) => (got.kind === 'fact' ? got.lines.join(' ') : got.why))(
   answer({ render }, { protocol: PROTOCOL, verb: 'render', rootScope: '', files: [], lines: [...words, ...prose, ...read(origins)], region: 'held', at: 3, shape: 'README.md', name: 'acme', reads: declarationOf(lock).regions['held'] ?? [] }, '') as { kind: string; lines: string[]; why: string });
 
-for (const line of lock) console.log(line);
+for (const line of lock.filter((one) => / scope=(capsule|region)\//.test(one))) console.log(line);
 console.log('four thermometers ', held(room));
 console.log('without d         ', held(room.filter((one) => one.origin !== 'd')));
 console.log(canonical({ at: 'policy:acme/capsules', by: 'target', form: 'alphabet', measure: 'id', role: 'writes', scope: 'uses/topos-measure', value: 'sha256:1fdaecd9e0db78503143c649ad2a0bfec3b597060db18b8a1b845415e3adb225' }));
